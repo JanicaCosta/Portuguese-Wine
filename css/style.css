@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script:wght@500&display=swap');
+
+h1 , h2 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    text-transform:lowercase ;
+}
+
+#logo {
+    text-align: center;
+}
