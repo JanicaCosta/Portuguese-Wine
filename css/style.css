@@ -3,54 +3,35 @@
 h1 , h2 {
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
+    color: black;
 }
 
 body {
     font-family: 'Crimson Text', serif;
     text-transform:lowercase ;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
 }
 
 #logo {
     text-align: center;
-    color: black;
-}
-
-#menu li {
-    display: inline;
-    text-decoration: black;
+    font-size: 400%;
+    height: 75px;
+    margin-top: auto;
 }
 
 #menu {
-    width: 100%;
-    overflow: auto;
-}
-
-#menu a{
-    float: left;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 25px;
-    width: 23%;
+    background-color: blue;
     text-align: center;
-    color: black;
+    height: 50px;
 }
 
-#menu a:hover {
-    background-color: lightgray;
-    text-decoration: solid;
+#menu li{
+    display: inline;
+    margin: auto;
 }
-
-h1, a {
-    text-decoration: none;
-}
-
-@media (max-width: 600px) {
-       #menu {
-        display: inline;
-        text-align: center;
-
-       
-    }
-}
-
-
