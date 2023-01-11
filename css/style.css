@@ -20,18 +20,25 @@ header {
 
 #logo {
     text-align: center;
-    font-size: 400%;
-    height: 75px;
-    margin-top: auto;
+    font-size: 300%;
+    text-align: center;
 }
 
 #menu {
     background-color: blue;
     text-align: center;
-    height: 50px;
 }
 
 #menu li{
     display: inline;
     margin: auto;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 250px;
+    width: 80%;
+    font-size: 150%;
+}
+
+#menu a {
+    text-decoration:none;
+    text-transform: uppercase;
 }
