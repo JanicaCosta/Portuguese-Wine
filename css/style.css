@@ -92,20 +92,20 @@ header {
 
 #history {
     height: 500px;
+    background-color: lightgrey;
 }
 
 #left-about {
     padding-top: 50px;
     width: 50%;
     float: left;
-    background-color: blueviolet;
 }
 
 #right-about {
     padding-top: 50px;
     width: 50%;
     float: right;
-    background-color: blue;
+    
 }
 
 #history h2 {
@@ -113,3 +113,30 @@ header {
     font-size: 200%;
     letter-spacing: 3px;
 }
+
+.left-text {
+    float: right;
+    width: 60%;
+    text-align: right;
+    font-weight: bold;
+    text-transform: capitalize;    
+    }
+
+    #circle-image {
+        width: 300px;
+        height: 300px;
+        border-style: double;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 50%;
+        margin-left: 100px ;
+    }
+
+    #circle-image-ceo {
+        background-image: url('../images/Ceo\ for\ vineyard.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        background-size: 80%; 
+        height: 100%;      
+    }
