@@ -49,6 +49,13 @@ header {
     color: white;
    }
 
+#image-area {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #vineyard-image {
     height: 600px;
     width: 90%;
@@ -58,9 +65,26 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
-       
     }
 
-    img {
-        flex: none;
+#cover-text {
+    color: black;
+    font-size: 130%;
+    text-transform: uppercase;
+    width: 300px;
+    height: 100px;
+    position:relative;
+    top: 250px;
+    left: 200px;
+}
+
+#cover-text h3 {
+    text-align: center;
+    font-family:'Dancing Script', cursive ;
     }
+
+#cover-text p {
+    font-family: 'Crimson Text', serif;
+    font-weight: bolder;
+    text-align: center;
+}
