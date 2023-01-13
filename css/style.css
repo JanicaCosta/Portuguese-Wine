@@ -16,6 +16,7 @@ body {
 
 header {
     background-color:whitesmoke;
+    height: 50px;
 }
 
 #logo {
@@ -87,4 +88,28 @@ header {
     font-family: 'Crimson Text', serif;
     font-weight: bolder;
     text-align: center;
+}
+
+#history {
+    height: 500px;
+}
+
+#left-about {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+    background-color: blueviolet;
+}
+
+#right-about {
+    padding-top: 50px;
+    width: 50%;
+    float: right;
+    background-color: blue;
+}
+
+#history h2 {
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 3px;
 }
