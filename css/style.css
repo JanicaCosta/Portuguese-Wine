@@ -23,7 +23,7 @@ header {
     font-size: 300%;
     text-align: center;
     margin: 0;
-    padding-right: 10px;
+    padding-right: 100px;
 }
 
 #menu {
@@ -34,7 +34,7 @@ header {
 #menu li{
     float: left;
     list-style-type: none;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: 25px;
 }
 
@@ -48,3 +48,19 @@ header {
     background-color: black;
     color: white;
    }
+
+#vineyard-image {
+    height: 600px;
+    width: 90%;
+    background-image: url('/images/main-image-wineyard.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+       
+    }
+
+    img {
+        flex: none;
+    }
