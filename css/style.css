@@ -15,30 +15,36 @@ body {
 }
 
 header {
-    background-color: aqua;
+    background-color:whitesmoke;
 }
 
 #logo {
-    text-align: center;
+    float: right;
     font-size: 300%;
     text-align: center;
+    margin: 0;
+    padding-right: 10px;
 }
 
 #menu {
-    background-color: blue;
-    text-align: center;
+    background-color: whitesmoke;
+    font-size: 150%;
 }
 
 #menu li{
-    display: inline;
-    margin: auto;
-    font-family: 'Dancing Script', cursive;
-    margin-right: 250px;
-    width: 80%;
-    font-size: 150%;
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 25px;
 }
 
 #menu a {
     text-decoration:none;
     text-transform: uppercase;
+    color: inherit;
 }
+
+#menu a:hover{
+    background-color: black;
+    color: white;
+   }
