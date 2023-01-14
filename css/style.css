@@ -148,3 +148,73 @@ header {
         font-size: 100%;
         margin-left: 75px;
     }
+
+    #wines {
+        height: 500px ;
+        background-color: whitesmoke;
+        width: 100%;     
+    }
+
+    #wines-title{
+        font-size: 200%;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    #redwine-left {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    }
+
+    #rosewine-right {
+        padding-top: 20px;
+        width: 33%;
+        float: right;
+    }
+    
+    #whitewine-center {
+        padding-top: 20px;
+        width: 33%;
+        margin: 0 auto;    
+    }
+
+    #redwine-around {
+        width: 300px;
+        height: 350px;
+        border-style: double;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10%;
+        float: right;
+    }
+
+    #redwine-image {
+        height: 70%;
+        width: 80%;
+        margin: 0 auto;
+        background-image: url('../images/red\ wine.jpg');
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+
+    #rosewine-around {
+        width: 300px;
+        height: 350px;
+        border-style: double;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10%;
+        float: left;
+    }
+
+    #rosewine-image {
+        height: 70%;
+        width: 80%;
+        margin: 0 auto;
+        background-image: url('../images/Rose\ wine.webp');
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
