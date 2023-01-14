@@ -82,13 +82,14 @@ header {
 #cover-text h3 {
     text-align: center;
     font-family:'Dancing Script', cursive ;
+    margin:0;
     }
 
 #cover-text p {
     font-family: 'Crimson Text', serif;
     font-weight: bolder;
     text-align: center;
-}
+    }
 
 #history {
     height: 500px;
@@ -139,4 +140,11 @@ header {
         border-radius: 50%;
         background-size: 80%; 
         height: 100%;      
+    }
+
+    #right-about p{
+        font-style: italic;
+        text-transform: capitalize;
+        font-size: 100%;
+        margin-left: 75px;
     }
