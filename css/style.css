@@ -218,3 +218,47 @@ header {
         background-size: 80%;
         background-repeat: no-repeat;
     }
+
+    #whitewine-around {
+        width: 300px;
+        height: 350px;
+        border-style: double;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10%;
+        margin: 0 auto;
+    }
+
+    #whitewine-image {
+        height: 70%;
+        width: 80%;
+        margin: 0 auto;
+        background-image: url('../images/wine\ wine.webp');
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+
+    #redwine-purchase {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 200;
+    }
+
+    hr {
+        border-color:#3a3a3a;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #whitewine-purchase {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 200;
+    }
+    #rosewine-purchase {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 200;
+    }
