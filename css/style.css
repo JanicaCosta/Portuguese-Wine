@@ -15,8 +15,7 @@ body {
 }
 
 header {
-    background-color:whitesmoke;
-    height: 50px;
+        height: 50px;
 }
 
 #logo {
@@ -28,7 +27,6 @@ header {
 }
 
 #menu {
-    background-color: whitesmoke;
     font-size: 150%;
 }
 
@@ -41,7 +39,7 @@ header {
 
 #menu a {
     text-decoration:none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: inherit;
 }
 
@@ -151,7 +149,6 @@ header {
 
     #wines {
         height: 500px ;
-        background-color: whitesmoke;
         width: 100%;     
     }
 
@@ -261,4 +258,23 @@ header {
         text-align: center;
         text-transform: capitalize;
         font-weight: 200;
+    }
+
+    #tour-title{
+        font-size: 200%;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    #tour {
+        height: 500px;
+        background-color: lightgrey;
+    }
+
+    #tour-text {
+        text-align: center;
+        font-weight: 200;
+        text-transform: capitalize;
+        width: 70%;
+        margin: 0 auto;
     }
