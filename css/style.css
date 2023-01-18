@@ -279,27 +279,45 @@ header {
         margin: 0 auto;
     }
 
-    #tour-details-left {
-        padding-top: 20px;
-        width: 25%;
+    #detail-list {
+        width: 40%;
         float: left;
-        background-color: blue;
-        }
-    
-    #tour-payment-right {
-        padding-top: 20px;
-        width: 25%;
-        float: right;
-        background-color: blueviolet;
-        }
-        
-    #tour-map-center {
-        padding-top: 20px;
-        width: 50%;
-        margin: 0 auto;
-        background-color: aqua;
     }
 
-    #row-left {
-        
-            }
+    #map {
+        width: 60%;
+        float: right;
+    }
+
+    #detail-list-left {
+        width: 50%;
+        float: left;
+    }
+
+    #detail-list-right {
+        width: 50%;
+        float: right;
+    }
+
+    #detail-list h3 {
+        margin-top: 25px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    #details-list {
+        text-transform: capitalize;
+        margin-left: 50px;
+    }
+
+    iframe {
+        width: 90%;
+        height: 300px;
+        filter: invert(100%);
+    }
+
+    #map h3 {
+        margin-top: 25px;
+        float: left;
+        text-transform: capitalize;
+    }
