@@ -360,3 +360,29 @@ header {
         cursor: pointer;
         font-size: 12px;
       }
+
+    footer {
+        height: 100px;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+
+    .social-media > li {
+        display: inline;
+        text-decoration: none;
+    }
+
+    .social-media i {
+        font-size: 200%;
+        color: #7e8180;
+        margin: 1%;
+        padding: 3%;
+    }
+
+    footer h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
