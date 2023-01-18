@@ -91,7 +91,7 @@
     <section id="tour">
         <h2 id="tour-title">Wine Tours - Tasting & Visit with history</h2>
         <div id="tour-text">
-                <p> Quinta da Palmeirinha has a winemaking tradition with 2 centuries of history. We will visit the 80-year-old Negra Mole vineyard, the 19th century chapel and the old winery. 1 red Great Reserve + 1 white Reserve + 1 Selected wine (consumers choice)</p>
+                <p> Quinta da Palmeirinha has a winemaking tradition with 2 centuries of history. We will visit the 80-year-old Negra Mole vineyard, the 19th century chapel and the old winery. 1 red Great Reserve + 1 white Reserve + 1 Selected wine (consumers choice). <strong>£40 per tour</strong></p>
         </div>
         <div>
         <div id="detail-list">
@@ -105,8 +105,11 @@
             <div><input type="text" id="email" name="email" placeholder="Joao@example.com"></div>
             <div><label for="adr"><i class="fa fa-address-card-o"></i> Address</label></div>
             <div><input type="text" id="adr" name="address" placeholder="41 Cavesson house"></div>
-            <div><label for="city"><i class="fa fa-institution"></i> City</label></div>
-            <div><input type="text" id="city" name="city" placeholder="London"></div>
+            <div><label for="date"><i class="fa-regular fa-calendar-days"></i> Date</label></div>
+            <div><input type="text" id="date" name="dd/mm/yy" placeholder="10/05/23"></div>
+            </div>
+            <div id="checkout">
+                <input type="submit" value="Confirm Wine Tour" class="btn">
             </div>
             </div>
             <div id="detail-list-right">
@@ -126,12 +129,20 @@
                 <div><input type="text" id="cname" name="cardname" placeholder="John More Doe"></div>
                 <div> <label for="ccnum">Credit card number</label></div>
                 <div><input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"></div>
-                <div><label for="expmonth">Exp Month</label></div>
-                <div><input type="text" id="expmonth" name="expmonth" placeholder="September"></div>
-                <div> <label for="expyear">Exp Year</label></div>
-                <div><input type="text" id="expyear" name="expyear" placeholder="2018"></div>
-                <div> <label for="cvv">CVV</label></div>
-                <div><input type="text" id="cvv" name="cvv" placeholder="352"></div>
+                <div id="card">
+                        <div id="card-left">
+                    <div id="card-details"><label for="expmonth">Exp Month</label></div>
+                    <div id="card-details"><input type="text" id="expmonth" name="expmonth" placeholder="September"></div>
+                        </div>
+                        <div id="card-right">
+                    <div id="card-details"> <label for="expyear">Exp Year</label></div>
+                    <div id="card-details"><input type="text" id="expyear" name="expyear" placeholder="2018"></div>
+                        </div>
+                        <div id="card-center">
+                    <div id="card-details"> <label for="cvv">CVV</label></div>
+                    <div id="card-details"><input type="text" id="cvv" name="cvv" placeholder="352"></div>
+                        </div>
+                </div>
             </div>
             </div>
         </div>
@@ -142,8 +153,22 @@
             </div>
         </div>
     </section>
-    <section>Contacts</section>
-    <footer>Social media</footer>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+    </footer>
     
     <script src="https://kit.fontawesome.com/b02af0a484.js" crossorigin="anonymous"></script>
 </body>
