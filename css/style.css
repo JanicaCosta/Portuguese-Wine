@@ -65,7 +65,7 @@ header {
 
 @media screen and (max-width: 800px) {
     #logo {
-        margin: 0 auto;
+        float: left;
     }
 
     #menu {
@@ -491,11 +491,6 @@ header {
             width: 75%;
             margin: 0 auto;
         }
-
-
-
-
-
       }
 
     footer {
