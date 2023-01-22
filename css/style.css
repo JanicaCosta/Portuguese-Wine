@@ -23,6 +23,8 @@ body {
 
 header {
         height: 50px;
+        width: 90%;
+        margin: 0 auto;
 }
 
 #logo {
@@ -34,7 +36,8 @@ header {
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 1.1rem;
+    margin: 2px;
 }
 
 #menu li{
@@ -110,6 +113,8 @@ header {
 #history {
     height: 500px;
     background-color: lightgrey;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #left-about {
@@ -212,11 +217,12 @@ header {
 
     #wines {
         height: 500px ;
-        width: 100%;     
+        width: 90%;
+        margin: 0 auto;     
     }
 
     #wines-title{
-        font-size: 200%;
+        font-size: 2rem;
         letter-spacing: 3px;
         text-align: center;
     }
@@ -246,7 +252,7 @@ header {
         border-color: black;
         border-width: 2px;
         border-radius: 10%;
-        float: right;
+        margin: 0 auto;
     }
 
     #redwine-image {
@@ -266,7 +272,7 @@ header {
         border-color: black;
         border-width: 2px;
         border-radius: 10%;
-        float: left;
+        margin: 0 auto;
     }
 
     #rosewine-image {
@@ -307,7 +313,7 @@ header {
 
     hr {
         border-color:#3a3a3a;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         margin-bottom: 10px;
     }
@@ -348,7 +354,7 @@ header {
     /* --------------------------tour----------------------------------------- */
 
     #tour-title{
-        font-size: 200%;
+        font-size: 2re ;
         letter-spacing: 3px;
         text-align: center;
     }
@@ -356,6 +362,8 @@ header {
     #tour {
         height: 500px;
         background-color: lightgrey;
+        width: 90%;
+        margin: 0 auto;
     }
 
     #tour-text {
@@ -399,7 +407,7 @@ header {
 
     iframe {
         width: 90%;
-        height: 275px;
+        height: 300px;
         filter: invert(100%);
     }
 
@@ -450,6 +458,8 @@ header {
 
     footer {
         height: 100px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .social-media {
