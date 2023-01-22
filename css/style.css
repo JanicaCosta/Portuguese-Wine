@@ -25,6 +25,7 @@ header {
         height: 75px;
         width: 90%;
         margin: 0 auto;
+        position:static;
 }
 
 #logo {
@@ -60,6 +61,16 @@ header {
 
 #logo, #menu {
     line-height: 75px;
+}
+
+@media screen and (max-width: 800px) {
+    #logo {
+        margin: 0 auto;
+    }
+
+    #menu {
+        float: left;
+    }
 }
 
 
@@ -107,9 +118,6 @@ header {
     text-align: center;
     }
 
-@media screen and (max-width: 1200px) {
-
-}
 /* --------------------------Histoty----------------------------------------- */
 
 #history {
@@ -175,7 +183,7 @@ header {
     @media screen and (max-width: 1200px) {
         #history {
             width: 90%;
-            height: 900px;
+            height: 1000px;
             margin: 0 auto;
         }
 
@@ -195,24 +203,13 @@ header {
             margin: 0;
         }
 
-
-
+        #circle-image {
+            float: left;
+            clear: both;
+        }
 
 }
 
-    @media screen and (max-width: 400px) {
-        #history {
-            width: 100%;
-            height: 900px;
-        }
-
-        #left-about, #right-about {
-            width: 100%;
-            margin: 0 auto;
-
-        }
-
-    }
 
 
     /* --------------------------wines----------------------------------------- */
@@ -331,11 +328,16 @@ header {
         font-weight: 200;
     }
 
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 1000px) {
         #wines {
-            height: 1200px;
+            height: 1300px;
             width: 42%;
             margin: 0 auto;
+        }
+
+        #wines-title{
+            padding: 30px 0;
+            margin: 0;
         }
 
         #redwine-left,  #rosewine-right {
@@ -349,9 +351,7 @@ header {
             width: 100%;
             padding: 10;
         }
-    }
-
-    
+    }  
 
     /* --------------------------tour----------------------------------------- */
 
@@ -456,6 +456,46 @@ header {
         border-radius: 3px;
         cursor: pointer;
         font-size: 12px;
+      }
+
+
+      @media screen and (max-width: 1000px) {
+        #tour {
+            width: 90%;
+            margin: 0 auto;
+            height: 1000px;
+        }
+
+        #tour-text {
+            width: 90%;
+            text-align: center;
+
+        }
+
+        #detail-list , #detail-list {
+            width: 100%;
+        }
+
+        #map {
+            width: 100%;
+            
+        }
+
+        iframe {
+            height: 400px;
+            margin: 10px;
+        }
+
+        #map h3 {
+            text-align: center;
+            width: 75%;
+            margin: 0 auto;
+        }
+
+
+
+
+
       }
 
     footer {
