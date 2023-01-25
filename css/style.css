@@ -148,9 +148,9 @@ header {
 }
 
 .left-text {
-    float: right;
+    margin: 0 auto;
     width: 60%;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     text-transform: capitalize;    
     }
@@ -162,7 +162,7 @@ header {
         border-color: black;
         border-width: 2px;
         border-radius: 50%;
-        margin-left: 100px ;
+        margin: 0 auto;
     }
 
     #circle-image-ceo {
@@ -522,6 +522,8 @@ header {
 
     footer h2 {
         text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 2px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
