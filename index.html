@@ -1,182 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Quinta de Sao Joao Wines</title>
-</head>
-<body>
-    <header id="main">
-        <a href="index.html">
-        <h1 id="logo">quinta de sao Joao</h1>
-        </a>
-        <nav>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Quinta de Sao Joao Wines</title>
+   </head>
+   <body>
+      <header id="main">
+         <!-- Example navbar by Bootstrap -->
+         <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+               <a href="index.html">
+                  <h1 id="logo">quinta de sao Joao</h1>
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                           <li>
+                              <hr class="dropdown-divider">
+                           </li>
+                           <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+         <!-- --------------------------------- -->
+         <a href="index.html">
+            <h1 id="logo">quinta de sao Joao</h1>
+         </a>
+         <nav>
             <ul id="menu">
-                <li>
-                    <a href="#history">History</a>
-                </li>
-                <li>
-                    <a href="#wines">Wines</a>
-                </li>
-                <li>
-                    <a href="#tour">Tours</a>
-                </li>
-                <li>
-                    <a href="#">Contacts</a>
-                </li>
+               <li>
+                  <a href="#history">History</a>
+               </li>
+               <li>
+                  <a href="#wines">Wines</a>
+               </li>
+               <li>
+                  <a href="#tour">Tours</a>
+               </li>
+               <li>
+                  <a href="#">Contacts</a>
+               </li>
             </ul>
-        </nav>
-    </header>
-    <section id="image-area">
-        <div id="vineyard-image">
-        <div id="cover-text">
-            <h3>Awards <i class="fa-sharp fa-solid fa-award"></i></h3>
-            <p> "Grand gold & Gold at Berlin wine trophy 2017, 2019, 2020 and 2021"</p>
-        </div>    
-        </div>
-    </section>
-    <section id="history">
-        <h2>History</h2>
-        <hr>
-        <div id="left-about">
+         </nav>
+      </header>
+      <section id="image-area">
+         <div id="vineyard-image">
+            <div id="cover-text">
+               <h3>Awards <i class="fa-sharp fa-solid fa-award"></i></h3>
+               <p> "Grand gold & Gold at Berlin wine trophy 2017, 2019, 2020 and 2021"</p>
+            </div>
+         </div>
+      </section>
+      <section id="history">
+         <h2>History</h2>
+         <hr>
+         <div id="left-about">
             <div class="left-text">
-                <p> The first red wines appeared in 2005 (production of 5000 liters), made in a small borrowed cellar, under the Foral de Portimão brand Colheita Selected, Reserva and the single varietal Petit Verdot.In 2007, already in its own winery at Quinta da Penina, the João D'Arens branded wine was produced, in honor of the writer and first Algarve President of the Republic, Manuel Teixeira Gomes, who in his book Agosto Azul, makes reference to the vineyards existing on the João D'Arens site.In 2008, the first white wine appeared with the Arinto and Crato Branco varieties (Síria or Roupeiro).In 2009, the first Rosé was produced, using the Petit Verdot variety and a new Foral de Portimão DUO red, as it is made with Cabernet Sauvignon and Alicante Bouschet varieties and without aging in wood.In 2012, the Quinta da Penina brand was launched, with the Quinta da Penina Reserva red 2010.
-
-                </p>
+               <p> The first red wines appeared in 2005 (production of 5000 liters), made in a small borrowed cellar, under the Foral de Portimão brand Colheita Selected, Reserva and the single varietal Petit Verdot.In 2007, already in its own winery at Quinta da Penina, the João D'Arens branded wine was produced, in honor of the writer and first Algarve President of the Republic, Manuel Teixeira Gomes, who in his book Agosto Azul, makes reference to the vineyards existing on the João D'Arens site.</p>
+               <p class="pt-3">In 2008, the first white wine appeared with the Arinto and Crato Branco varieties (Síria or Roupeiro).In 2009, the first Rosé was produced, using the Petit Verdot variety and a new Foral de Portimão DUO red, as it is made with Cabernet Sauvignon and Alicante Bouschet varieties and without aging in wood.In 2012, the Quinta da Penina brand was launched, with the Quinta da Penina Reserva red 2010.</p>
             </div>
-        </div>
-        <div id="right-about">
+         </div>
+         <div id="right-about">
             <div id="circle-image">
-                <div id="circle-image-ceo">
-                </div>
-            <p> <strong>CEO</strong>- Joana Mariano</p>
+               <div id="circle-image-ceo">
+               </div>
+               <p> <strong>CEO</strong>- Joana Mariano</p>
             </div>
-        </div>
-    </section>
-    <section id="wines">
-        <h2 id="wines-title">Wines</h2>
-        <hr>
-        <div id="redwine-left">
+         </div>
+      </section>
+      <section id="wines">
+         <h2 id="wines-title">Wines</h2>
+         <hr>
+         <div id="redwine-left">
             <div id="redwine-around">
-                <div id="redwine-image">
-                </div>
-                <div id="redwine-purchase">
-                    <p class="redwine-text"><strong>Red wine- Quinta de Sao Joao</strong></p>
-                    <hr>
-                    <input type="submit" value="Purchase"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
-                </div>
+               <div id="redwine-image">
+               </div>
+               <div id="redwine-purchase">
+                  <p class="redwine-text"><strong>Red wine- Quinta de Sao Joao</strong></p>
+                  <hr>
+                  <input class="btn-custom" type="submit" value="Purchase"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
+               </div>
             </div>
-        </div>
-        <div id="rosewine-right">
+         </div>
+         <div id="rosewine-right">
             <div id="rosewine-around">
-                <div id="rosewine-image"></div>
-                <div id="rosewine-purchase">
-                    <p class="rosewine-text"><strong>Rose wine- Quinta de Sao Joao</strong></p>
-                    <hr>
-                    <input type="submit" value="Purchase"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
-                </div>
+               <div id="rosewine-image"></div>
+               <div id="rosewine-purchase">
+                  <p class="rosewine-text"><strong>Rose wine- Quinta de Sao Joao</strong></p>
+                  <hr>
+                  <input class="btn-custom" type="submit" value="Purchase"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
+               </div>
             </div>
-        </div>
-        <div id="whitewine-center">
+         </div>
+         <div id="whitewine-center">
             <div id="whitewine-around">
-                <div id="whitewine-image"></div>
-                <div id="whitewine-purchase">
-                    <p class="whitewine-text"><strong>white wine- Quinta de Sao Joao</strong></p>
-                    <hr>
-                    <input type="submit" value="Purchase"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
-                </div>
+               <div id="whitewine-image"></div>
+               <div id="whitewine-purchase">
+                  <p class="whitewine-text"><strong>white wine- Quinta de Sao Joao</strong></p>
+                  <hr>
+                  <input class="btn-custom" type="submit" value="Purchase"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
+               </div>
             </div>
-        </div>
-    </section>
-    <section id="tour">
-        <h2 id="tour-title">Wine Tours - Tasting & Visit with history</h2>
-        <hr>
-        <div id="tour-text">
-                <p> Quinta da Palmeirinha has a winemaking tradition with 2 centuries of history. We will visit the 80-year-old Negra Mole vineyard, the 19th century chapel and the old winery. 1 red Great Reserve + 1 white Reserve + 1 Selected wine (consumers choice). <strong>£40 per tour</strong></p>
-        </div>
-        <div>
-        <div id="detail-list">
+         </div>
+      </section>
+      <section id="tour">
+         <h2 id="tour-title">Wine Tours - Tasting & Visit with history</h2>
+         <hr>
+         <div id="tour-text">
+            <p> Quinta da Palmeirinha has a winemaking tradition with 2 centuries of history. We will visit the 80-year-old Negra Mole vineyard, the 19th century chapel and the old winery. 1 red Great Reserve + 1 white Reserve + 1 Selected wine (consumers choice). <strong>£40 per tour</strong></p>
+         </div>
+         <div>
+         <div id="detail-list">
             <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-            <div id="detail-list-left">
-            <h3>personal details:</h3>
-            <hr>
-            <div id="details-list">
-            <div><label for="fname"><i class="fa fa-user"></i> Full Name</label></div>
-            <div><input type="text" id="fname" name="firstname" placeholder="Joao Costa"></div>
-            <div><label for="email"><i class="fa fa-envelope"></i> Email</label></div>
-            <div><input type="text" id="email" name="email" placeholder="Joao@example.com"></div>
-            <div><label for="adr"><i class="fa fa-address-card-o"></i> Address</label></div>
-            <div><input type="text" id="adr" name="address" placeholder="41 Cavesson house"></div>
-            <div><label for="date"><i class="fa-regular fa-calendar-days"></i> Date</label></div>
-            <div><input type="text" id="date" name="dd/mm/yy" placeholder="10/05/23"></div>
-            </div>
-            <div id="checkout">
-                <input type="submit" value="Confirm Wine Tour" class="btn">
-            </div>
-            </div>
-            <div id="detail-list-right">
-            <h3>Payment details:</h3>
-            <hr>
-            <div id="details-list">
-                <div><label for="fname">Accepted Cards</label></div>
-                <div>
-                    <div class="icon-container">
-                    <i class="fa fa-cc-visa" style="color:navy;"></i>
-                    <i class="fa fa-cc-amex" style="color:blue;"></i>
-                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                    <i class="fa fa-cc-discover" style="color:orange;"></i>
-                    </div>
-                </div>
-                <div><label for="cname">Name on Card</label></div>
-                <div><input type="text" id="cname" name="cardname" placeholder="John More Doe"></div>
-                <div> <label for="ccnum">Credit card number</label></div>
-                <div><input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"></div>
-                <div id="card">
+               <div id="detail-list-left">
+                  <h3>personal details:</h3>
+                  <hr>
+                  <div id="details-list">
+                     <div>
+                        <label for="fname"><i class="fa fa-user form-label"></i> Full Name</label>
+                        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Joao Costa">
+                     </div>
+                     <div><label for="email"><i class="fa fa-envelope"></i> Email</label></div>
+                     <div><input type="text" id="email" name="email" placeholder="Joao@example.com"></div>
+                     <div><label for="adr"><i class="fa fa-address-card-o"></i> Address</label></div>
+                     <div><input type="text" id="adr" name="address" placeholder="41 Cavesson house"></div>
+                     <div><label for="date"><i class="fa-regular fa-calendar-days"></i> Date</label></div>
+                     <div><input type="text" id="date" name="dd/mm/yy" placeholder="10/05/23"></div>
+                  </div>
+                  <div id="checkout">
+                     <input type="submit" value="Confirm Wine Tour" class="btn">
+                  </div>
+               </div>
+               <div id="detail-list-right">
+                  <h3>Payment details:</h3>
+                  <hr>
+                  <div id="details-list">
+                     <div><label for="fname">Accepted Cards</label></div>
+                     <div>
+                        <div class="icon-container">
+                           <i class="fa fa-cc-visa" style="color:navy;"></i>
+                           <i class="fa fa-cc-amex" style="color:blue;"></i>
+                           <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                           <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                     </div>
+                     <div><label for="cname">Name on Card</label></div>
+                     <div><input type="text" id="cname" name="cardname" placeholder="John More Doe"></div>
+                     <div> <label for="ccnum">Credit card number</label></div>
+                     <div><input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"></div>
+                     <div id="card">
                         <div id="card-left">
-                    <div id="card-details"><label for="expmonth">Exp Month</label></div>
-                    <div id="card-details"><input type="text" id="expmonth" name="expmonth" placeholder="September"></div>
+                           <div id="card-details"><label for="expmonth">Exp Month</label></div>
+                           <div id="card-details"><input type="text" id="expmonth" name="expmonth" placeholder="September"></div>
                         </div>
                         <div id="card-right">
-                    <div id="card-details"> <label for="expyear">Exp Year</label></div>
-                    <div id="card-details"><input type="text" id="expyear" name="expyear" placeholder="2018"></div>
+                           <div id="card-details"> <label for="expyear">Exp Year</label></div>
+                           <div id="card-details"><input type="text" id="expyear" name="expyear" placeholder="2018"></div>
                         </div>
                         <div id="card-center">
-                    <div id="card-details"> <label for="cvv">CVV</label></div>
-                    <div id="card-details"><input type="text" id="cvv" name="cvv" placeholder="352"></div>
+                           <div id="card-details"> <label for="cvv">CVV</label></div>
+                           <div id="card-details"><input type="text" id="cvv" name="cvv" placeholder="352"></div>
                         </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </form>
-        <div id="map">
+                     </div>
+                  </div>
+               </div>
+         </div>
+         </form>
+         <!-- <div id="map">
             <div class="container">
-                <h3>address : Parque Industrial do Pateiro, Rua dos Conserveiros, Lt4, 8400-651 Parchal, Portugal</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1590.2967855347179!2d-8.5039722!3d37.1385833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa7a394da23ae774!2zMzfCsDA4JzE4LjkiTiA4wrAzMCcxNC4zIlc!5e0!3m2!1sen!2suk!4v1674060102802!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <h3>address : Parque Industrial do Pateiro, Rua dos Conserveiros, Lt4, 8400-651 Parchal, Portugal</h3>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1590.2967855347179!2d-8.5039722!3d37.1385833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa7a394da23ae774!2zMzfCsDA4JzE4LjkiTiA4wrAzMCcxNC4zIlc!5e0!3m2!1sen!2suk!4v1674060102802!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
-    </section>
-    <footer>
-        <h2> Follow us!</h2>
-        <ul class="social-media">
+         </div> -->
+      </section>
+
+      <section id="map-section">
+        <iframe id="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1590.2967855347179!2d-8.5039722!3d37.1385833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa7a394da23ae774!2zMzfCsDA4JzE4LjkiTiA4wrAzMCcxNC4zIlc!5e0!3m2!1sen!2suk!4v1674060102802!5m2!1sen!2suk" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <footer>
+         <h2> Follow us!</h2>
+         <ul class="social-media">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+               <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+               <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
-        </ul>
-    </footer>
-    
-    <script src="https://kit.fontawesome.com/b02af0a484.js" crossorigin="anonymous"></script>
-</body>
+         </ul>
+      </footer>
+      <script src="https://kit.fontawesome.com/b02af0a484.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+   </body>
 </html>
