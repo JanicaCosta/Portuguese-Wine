@@ -451,8 +451,9 @@ header {
     }
 
     #checkout {
-        margin-top: 50px;
-        margin-left: 50px;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 20px;
     }
 
     .btn {
@@ -468,10 +469,10 @@ header {
       }
 
 
-      @media screen and (max-width: 1000px) {
+      @media screen and (max-width: 800px) {
         #tour {
             margin: 0 auto;
-            height: 800px;
+            height: 1100px;
         }
 
         #tour-text {
@@ -480,14 +481,11 @@ header {
 
         }
 
-        #detail-list , #detail-list {
+        #detail-list-right , #detail-list-left {
             width: 100%;
+            margin: 0 auto;
         }
 
-        /* iframe {
-            height: 400px;
-            margin: 10px;
-        } */
       }
 
     footer {
