@@ -336,14 +336,14 @@ header {
 
         #redwine-left,  #rosewine-right {
             width: 100%;
-            padding: 10;
+            padding: 0;
 
         }
 
         #whitewine-center {
             clear: both;
             width: 100%;
-            padding: 10;
+            padding: 0;
         }
     }  
 
@@ -376,7 +376,7 @@ header {
 
     #tour-text {
         text-align: center;
-        font-weight: 1.5rem;
+        font-size: 1.5rem;
         text-transform: capitalize;
         width: 70%;
         margin: 0 auto;
