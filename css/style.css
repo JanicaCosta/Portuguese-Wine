@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 h1 , h2 {
@@ -25,7 +26,6 @@ header {
         height: 75px;
         width: 90%;
         margin: 0 auto;
-        position:static;
 }
 
 #logo {
@@ -78,15 +78,16 @@ header {
 /* --------------------------image and text----------------------------------------- */
 
 #image-area {
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding-top: 2em;
 }
 
 #vineyard-image {
-    height: 600px;
-    width: 90%;
+    height: 700px;
+    width: 100%;
     background-image: url('../images/main-image-wineyard.jpg');
     background-repeat: no-repeat;
     margin-left: auto;
@@ -123,6 +124,7 @@ header {
     height: 500px;
     width: 90%;
     margin: 0 auto;
+    padding-top: 2em;
 }
 
 #left-about {
@@ -143,12 +145,12 @@ header {
     font-size: 2rem;
     letter-spacing: 3px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .left-text {
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
     text-align: center;
     font-weight: bold;
     text-transform: capitalize;    
@@ -177,18 +179,18 @@ header {
         font-style: italic;
         text-transform: capitalize;
         font-size: 100%;
-        margin-left: 75px;
+        margin-left: 85px;
     }
 
     @media screen and (max-width: 1200px) {
         #history {
-            width: 90%;
-            height: 1000px;
+            width: 100%;
+            height: 850px;
             margin: 0 auto;
         }
 
         #left-about, #right-about {
-            width: 75%;
+            width: 100%;
             margin: 0 auto;
         }
 
@@ -204,8 +206,7 @@ header {
         }
 
         #circle-image {
-            float: left;
-            clear: both;
+            margin: 0 auto;
         }
 
 }
@@ -217,7 +218,8 @@ header {
     #wines {
         height: 500px ;
         width: 90%;
-        margin: 0 auto;     
+        margin: 0 auto;
+        padding-top: 2em;     
     }
 
     #wines-title{
@@ -225,7 +227,7 @@ header {
     font-size: 2rem;
     letter-spacing: 3px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     }
 
     #redwine-left {
@@ -333,7 +335,6 @@ header {
     @media screen and (max-width: 1000px) {
         #wines {
             height: 1300px;
-            width: 42%;
             margin: 0 auto;
         }
 
@@ -371,13 +372,13 @@ header {
     font-size: 2rem;
     letter-spacing: 3px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     }
 
     #tour {
         height: 500px;
         background-color: #e05d3321;
-        padding-top: 3em;
+        padding-top: 2em;
         margin: 0 auto;
     }
 
