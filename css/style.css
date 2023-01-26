@@ -336,14 +336,14 @@ header {
 
         #redwine-left,  #rosewine-right {
             width: 100%;
-            padding: 0;
+            padding: 10px;
 
         }
 
         #whitewine-center {
             clear: both;
             width: 100%;
-            padding: 0;
+            padding: 10px;
         }
     }  
 
