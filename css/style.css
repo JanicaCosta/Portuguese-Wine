@@ -450,7 +450,7 @@ header {
       }
 
 
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 900px) {
         #tour {
             margin: 0 auto;
             height: 1100px;
@@ -468,6 +468,13 @@ header {
         }
 
       }
+
+      @media screen and (max-width: 700px) {
+        #tour {
+            margin: 0 auto;
+            height: 1250px;
+        }
+    }
 
     footer {
         height: 100px;
