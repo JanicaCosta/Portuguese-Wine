@@ -382,7 +382,7 @@ header {
         margin: 0 auto;
     }
 
-    #detail-list {
+    .detail-list {
         width: 100%;
         margin: 0 auto;
     }
@@ -397,13 +397,27 @@ header {
         float: right;
     }
 
-    #detail-list h3 {
+    .detail-list h3 {
         margin-top: 25px;
         text-align: center;
         text-transform: capitalize;
     }
 
-    #details-list {
+    .icon-container {
+        margin-left: 50px;
+    }
+
+    .details-list , label , input {
+        text-transform: capitalize;
+        margin-left: 50px;
+    }
+
+    #detail-list-left h3 {
+        text-transform: capitalize;
+        margin-left: 50px;
+    }
+
+    #detail-list-right h3 {
         text-transform: capitalize;
         margin-left: 50px;
     }
@@ -415,7 +429,7 @@ header {
         margin-bottom: 5px;
     }
 
-    #card-details input[type=text] {
+    .card-details input[type=text] {
         width: 40%;
     }
 
