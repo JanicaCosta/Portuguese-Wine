@@ -63,7 +63,7 @@ header {
 /* --------------------------image and text----------------------------------------- */
 
 #image-area {
-    height: 700px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -71,7 +71,7 @@ header {
 }
 
 #vineyard-image {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-image: url('../images/main-image-wineyard.jpg');
     background-repeat: no-repeat;
@@ -79,6 +79,7 @@ header {
     margin-right: auto;
     display: block;
     background-size: cover;
+    background-position: bottom;
 }
 
 #cover-text {
