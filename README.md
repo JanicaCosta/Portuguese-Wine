@@ -1,108 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+python3 -m http.server
 
-Welcome JanicaCosta,
+iNTRODUCTION
+ 
+ My site was inspired in my family business , which my father in law has a vineyard and produce a wines. my goal was try to improve his website and at least to show a diferent way to promote his business in the simple way and an easier and better website.
+ 
+ DESIGN
+ 
+ the desing of the website was based on simple things:
+  - two fonts. 1 font for all titles and other font to all text.
+  - all tiltles with same sizes and text as well
+  - two main coulors to combine with the rose wine
+  - all text and picture to be center in each section, it looks better organised
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+WIREFRAME
+The initial wireframes produced by me, is not matching what is final result.
 
-## Gitpod Reminders
+![image](https://user-images.githubusercontent.com/117991189/215292942-37355a91-56ed-42a2-96e2-36da91470634.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+I have sticked always with the main struture, which was :
+      - heading with menu and title 
+      - main picture for the vineyard
+      - section for history of the business 
+      - section for type of wines we are producing 
+      - section of booking for Tours in the vineyard
+      - footer 
+    
+Along the project, was important the meetings with my mentor Reuben which guide me to try to make the site looking better and simple.
 
-Another blue button should appear to click: _Open Browser_.
+RESPONSIVE
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To be responsive was using IPAD air and Iphone 12 as examples to make sure is responsible at 100%
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+FEATURES
 
-To log into the Heroku toolbelt CLI:
+This section introduces the features that have been implemented for the website in order to create a seamless experience through quick navigation of content.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+NAVEGATION BAR
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![image](https://user-images.githubusercontent.com/117991189/215293173-ed66b6f5-ac12-45cd-98f6-2486115ac6d9.png)
 
-------
 
-## Release History
+the heading was created to have just three links for History/Wines/Tour. i have tried to not take too much space with it, and make the title of the vineyard more visible. that was always the main goal.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+History
+this section was thought to be simple with two divs. text and a picture of the CEO. both are center to each div. the goal was to no make the text too long and divided by two areas.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+wines
+this section was split in 3 types of wines , centered and not with too many colours and with a frame around it. which frame contains the wine, a description of the wine and then a line to separate from the purchase buttom.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![image](https://user-images.githubusercontent.com/117991189/215293802-4b480c58-a28a-47ae-960d-66b538e2ee5b.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Tour
+this was based on details to be put onto the website to allows you to enter all information required to confirm a booking. which means, name, address, card details and then confirming the booking.
+below this there is a map to show the location for the tour.
+![image](https://user-images.githubusercontent.com/117991189/215293872-7e6d22b7-cc21-4c14-9b95-e8b0a22642e2.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+footer
+The footer section contains social media links to Facebook,twiter,  YouTube and Instagram. These links currently take the user to the homepage of each social media site.
+![image](https://user-images.githubusercontent.com/117991189/215293927-2fca0332-3eec-415a-9025-0ffdf12040bc.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
