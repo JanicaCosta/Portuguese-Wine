@@ -111,9 +111,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - HTML
     - No errors were returned when passing through the official
+    https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjanicacosta.github.io%2FPortuguese-Wine%2F
+   
 
 - CSS
     - No errors were found when passing through the official 
+    
 
 - Accessibility 
     - The chosen colors and fonts were confirmed that are easy and accessible by running it through lighthouse in devtools.
