@@ -5,17 +5,17 @@ Site : https://janicacosta.github.io/Portuguese-Wine/
 
 ## INTRODUCTION
 
- My site was inspired in my family business , which my father in law has a vineyard and produce a wines. my goal was try to improve his website and at least to show a diferent way to promote his business in the simple way and an easier and better website.
+ My site was inspired in my family business , which my father in law has a vineyard and produce a wines. My goal was try to improve his website and at least to show a diferent way to promote his business in the simple way and an easier and better website.
  
  ## DESIGN
  
  the desing of the website was based on simple things:
-  - Two fonts were used on the page Crimson Text , Dancing Script. All text in black.
+  - Two fonts were used on the page Crimson Text , Dancing Script.
     - Dancing Script for all titles
     - Crimson Text for all text
-  - All tiltles with same sizes and text as well.
-  - Two main coulors to combine with the rose wine ( #8e6a20 and #e05d332)
-  - All text and pictures to be center in each section, it looks better organised.
+  - All tiltles with same sizes and text as well. All text in all page is black.
+  - Two main coulors were used to combine with the rose wine ( #8e6a20 and #e05d332)
+  - All text and pictures to be center in each section,to look better organised and simple.
 
 
 ## WIREFRAME
@@ -39,7 +39,7 @@ Along the project, was important the meetings with my mentor Reuben which guide 
 
 ## RESPONSIVE
 
-To be responsive was using IPAD air and Iphone 12 as examples to make sure is responsible at 100%
+To be responsive was using IPAD air and Iphone 12 as examples to make sure is responsible.
 
 ![image](https://user-images.githubusercontent.com/117991189/215343698-4fe6fa4a-626e-4425-801e-bf819b926d33.png)
 
@@ -52,25 +52,25 @@ This section introduces the features that have been implemented for the website 
 ![image](https://user-images.githubusercontent.com/117991189/215293173-ed66b6f5-ac12-45cd-98f6-2486115ac6d9.png)
 
 
-The heading was created to have just three links for History/Wines/Tour. i have tried to not take too much space with it, and make the title of the vineyard more visible. that was always the main goal.
+The heading was created to have just three links for History/Wines/Tour. i have tried to not take too much space with it, and make the title of the vineyard more visible. That was always the main goal.
 
 ## History Section
 
-this section was thought to be simple with two divs. text and a picture of the CEO. both are center to each div. the goal was to no make the text too long and divided by two areas.
+This section was thought to be simple with two divs. A text and a picture of the CEO, both are in thecenter to each div. the goal was to no make the text too long and divided by two areas.
 
 ![image](https://user-images.githubusercontent.com/117991189/215343786-863e0999-f2f1-4966-8a60-c4f1f109fae0.png)
 
 
 ## Wines Section
 
-this section was split in 3 types of wines , centered and not with too many colours and with a frame around it. which frame contains the wine, a description of the wine and then a line to separate from the purchase buttom.
+This section was split in 3 types of wines , centered and not with too many colours and with a frame around it. which frame contains the wine, a description of the wine and then a line to separate from the purchase buttom.
 
 ![image](https://user-images.githubusercontent.com/117991189/215293802-4b480c58-a28a-47ae-960d-66b538e2ee5b.png)
 
 
 ## Tour Section
 
-this was based on details to be put onto the website to allows you to enter all information required to confirm a booking. which means, name, address, card details and then confirming the booking. below this there is a map to show the location for the tour.
+This was based on details to be put onto the website to allows you to enter all information required to confirm a booking. which means, name, address, card details and then confirming the booking. below this there is a map to show the location for the tour.
 
 ![image](https://user-images.githubusercontent.com/117991189/215293872-7e6d22b7-cc21-4c14-9b95-e8b0a22642e2.png)
 
@@ -116,7 +116,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - No errors were found when passing through the official 
 
 - Accessibility 
- - The chosen colors and fonts were confirmed that are easy and accessible by running it through lighthouse in devtools.
+    - The chosen colors and fonts were confirmed that are easy and accessible by running it through lighthouse in devtools.
 
 ![image](https://user-images.githubusercontent.com/117991189/215343738-e013314a-cd07-4387-9942-2f9c04827e9b.png)
 
