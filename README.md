@@ -41,6 +41,7 @@ Along the project, was important the meetings with my mentor Reuben which guide 
 
 To be responsive was using IPAD air and Iphone 12 as examples to make sure is responsible at 100%
 
+![image](https://user-images.githubusercontent.com/117991189/215343698-4fe6fa4a-626e-4425-801e-bf819b926d33.png)
 
 ## FEATURES
 
@@ -56,6 +57,9 @@ The heading was created to have just three links for History/Wines/Tour. i have 
 ## History Section
 
 this section was thought to be simple with two divs. text and a picture of the CEO. both are center to each div. the goal was to no make the text too long and divided by two areas.
+
+![image](https://user-images.githubusercontent.com/117991189/215343786-863e0999-f2f1-4966-8a60-c4f1f109fae0.png)
+
 
 ## Wines Section
 
@@ -86,22 +90,20 @@ In this project the following technologies have been used.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries, Programs Used, Content and Media
 
 - [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Patua+One' font for page titles, 'Hebbo' font for sections titles and 'montserrat' font  for text in general into the style.css file which is used on all pages throughout the project.
-
 - [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic, social links and burger button.
-
 - [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the navigation links and forms buttons to add the float transition while being hovered over.
-
 - [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-
 - [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+- https://www.vinhosportimao.com/pt/
+- [Wireframes](https://balsamiq.com/)
+- [HTML References](https://www.w3schools.com/html/)
+- [CSS References](https://www.w3schools.com/css/)
+- [General Challenges with CSS](https://stackoverflow.com/)
+- [Images](https://www.pexels.com/)
+ 
 
 ## Validator Testing
 
@@ -116,10 +118,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Accessibility 
  - The chosen colors and fonts were confirmed that are easy and accessible by running it through lighthouse in devtools.
 
+![image](https://user-images.githubusercontent.com/117991189/215343738-e013314a-cd07-4387-9942-2f9c04827e9b.png)
+
+
 
 ### Unfixed Bugs
 
 - was found a bug with the menu burger menu, and the title, which needs to be assess.
+
+![image](https://user-images.githubusercontent.com/117991189/215344014-927a61b4-a9ef-4a60-adf9-b11dc4859c47.png)
+
 
 
 ## Deployment
@@ -129,12 +137,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - From the source section drop-down menu, select the Master Branch;
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-### Content and Media
-
-All content and photos were used from the following sources:
-
-- https://www.pexels.com/
-- https://www.vinhosportimao.com/pt/
 
 ### Acknowledgements
 
