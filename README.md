@@ -38,7 +38,7 @@ I have sticked always with the main struture, which was :
 
 To be responsive was using IPAD air and Iphone 12 as examples to make sure is responsible at 100%
 
-
+image.png
 
 6. FEATURES
 
