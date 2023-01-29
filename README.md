@@ -74,6 +74,7 @@ this was based on details to be put onto the website to allows you to enter all 
 ## Footer
 
 The footer section contains social media links to Facebook,twiter,  YouTube and Instagram. These links currently take the user to the homepage of each social media site.
+
 ![image](https://user-images.githubusercontent.com/117991189/215293927-2fca0332-3eec-415a-9025-0ffdf12040bc.png)
 
 ## Technologies Used
@@ -102,8 +103,18 @@ In this project the following technologies have been used.
 - [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 
-- [w3schools:] (https://www.w3schools.com/)
-    - W3schools was use to test and see various examples
+## Validator Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- HTML
+    - No errors were returned when passing through the official
+
+- CSS
+    - No errors were found when passing through the official 
+
+- Accessibility 
+ - The chosen colors and fonts were confirmed that are easy and accessible by running it through lighthouse in devtools.
 
 
 ### Unfixed Bugs
@@ -112,12 +123,11 @@ In this project the following technologies have been used.
 
 
 ## Deployment
----
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - In the GitHub repository [here](https://janicacosta.github.io/Portuguese-Wine/), navigate to the Settings tab;
-    - From the source section drop-down menu, select the Master Branch;
-    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- In the GitHub repository [here](https://janicacosta.github.io/Portuguese-Wine/), navigate to the Settings tab;
+- From the source section drop-down menu, select the Master Branch;
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ### Content and Media
 
@@ -126,6 +136,9 @@ All content and photos were used from the following sources:
 - https://www.pexels.com/
 - https://www.vinhosportimao.com/pt/
 
+### Acknowledgements
+
+To my mentor Reuben Ferrante, which gave me all support i needed and was helpfull at all times and mostly in our sessions during the project. Thank you.
 
 
 
