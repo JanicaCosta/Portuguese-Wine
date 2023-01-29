@@ -102,4 +102,26 @@ In this project the following technologies have been used.
     - GitHub is used to store the projects code after being pushed from Git.
 
 
+### Unfixed Bugs
+
+- was found a bug with the menu burger menu, and the title, which needs to be assess.
+
+
+## Deployment
+---
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository [here](https://janicacosta.github.io/Portuguese-Wine/), navigate to the Settings tab;
+    - From the source section drop-down menu, select the Master Branch;
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+### Content and Media
+
+All content and photos were used from the following sources:
+
+- https://www.pexels.com/
+- https://www.vinhosportimao.com/pt/
+
+
+
 
