@@ -35,7 +35,7 @@ header {
     height: 150px;
 }
 #navbarSupportedContent {
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 75px;
 }
 
@@ -57,6 +57,12 @@ header {
     color: white;
     border-radius: 30%;
    }
+
+   @media screen and (max-width: 500px) {
+    #logo {
+        font-size: 2rem;
+   }
+}
 
 
 
@@ -84,7 +90,7 @@ header {
 
 #cover-text {
     color: black;
-    font-size: 130%;
+    font-size: 1rem;
     text-transform: uppercase;
     position: relative;
     top: 30%;
@@ -102,6 +108,7 @@ header {
     font-family: 'Crimson Text', serif;
     font-weight: bolder;
     text-align: center;
+
     }
 
 /* --------------------------Histoty----------------------------------------- */
@@ -139,7 +146,6 @@ header {
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    font-weight: bold;
     text-transform: capitalize;    
     }
 
@@ -387,7 +393,7 @@ header {
 
     #tour-text {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-transform: capitalize;
         width: 70%;
         margin: 0 auto;
